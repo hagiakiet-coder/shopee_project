@@ -1,0 +1,51 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color:#333;
+
+    /* width height */
+    --header-height: 120px;
+    --shopee-mall-height: calc(100% - 60px);
+}
+* {
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0;border: 0;margin: 0;
+}
+
+.sign-up,
+.sign-in {
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+
+
+
+
+/* border */
+.border-right_none {
+    border-right: none;
+}
+
+/* animation */
+
+@keyframes growUp {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
